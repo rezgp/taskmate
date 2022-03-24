@@ -1,4 +1,4 @@
-import django-heroku
+import django_heroku
 import os
 import environ
 
@@ -124,4 +124,3 @@ LOGIN_URL = 'login'
 
 django_heroku.settings(locals())
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
